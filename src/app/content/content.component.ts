@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import Typed from 'typed.js/src/typed.js';
+import * as Typed from 'typed.js';
 import { Router } from '@angular/router';
 
 @Component({
@@ -31,5 +31,5 @@ export class ContentComponent implements OnInit {
   gotoCadastroClientes() {
     this.router.navigate(['cadastro-clientes']);
    }
-
 }
+
